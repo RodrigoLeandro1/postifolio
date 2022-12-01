@@ -1,0 +1,174 @@
+body{
+    background-image: linear-gradient(to right, rgba(20, 147, 220, 0.863), rgba(17, 54, 71, 0.315));
+    margin: 0px;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu{
+    justify-content: center;
+    height: 46px;
+}
+
+.flex{
+    
+        justify-content: center;
+        
+        display: flex;
+        list-style: none;
+        
+    
+    
+
+}
+.men{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+a:hover{
+    font-size: 25px;
+    color: rgb(238, 229, 229);
+    background: #000;
+    border-radius: 8px;
+}
+
+
+
+.pt1flex{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nomecontainer{
+    text-align: center;
+}
+
+.foto{
+    margin-top: 5%;
+}
+
+#ft{
+        margin-top: auto;
+        border-radius: 60px;
+        box-shadow: 30px 4px 4px rgb(0 0 0 / 25%);
+        padding: 7px 7px 0px 7px;
+}
+.pt2flex{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+
+.container{
+    display: flex;
+    max-height: 100vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.nome{
+    
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 94px;
+        text-align: center;
+        text-shadow: 70px -20px 4px rgb(0 0 0 / 20%);
+        padding: 7px 7px 0px 7px;
+    
+}
+
+.portifolio{
+    
+        text-shadow: 2px 2px 1px #000;
+        font-size: 25px;
+        color: #a39191;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.item{
+    padding: 20px;
+}
+
+.sobremim{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.sobremim2{ 
+    margin-right: auto;
+    margin-left: auto;
+    width: 21.7%;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border: 3px solid black;
+    letter-spacing: 0.4em;
+    text-align: center;
+}
+
+.textoeu{
+    
+        width: 85%;
+        margin: 3% auto;
+        text-align: justify;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 138.68%;
+        letter-spacing: 0.2em;
+        text-align: center;
+    
+}
+
+/* AQUI COMEÇA OS ESTILOS DOS HOBBIES  */
+
+
+
+.containerhob{
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 5px;
+    margin-top: 30px;
+    padding-left: 15px;
+    border: 3px solid black;
+    letter-spacing: 0.6em;
+    text-align: center;
+
+}
+.hob{
+text-align: center;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   margin-top: 20px;
+   
+  }
+
+  .textohob{
+    background: rgba(96, 163, 202, 0.562);
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.3;
+    
+  }
+
